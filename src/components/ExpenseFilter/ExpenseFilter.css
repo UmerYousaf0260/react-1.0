@@ -1,0 +1,33 @@
+.expense-filter{
+    padding: 20px 40px;
+}
+
+.expense-filter__control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.expense-filter__control label{
+    font-weight: 700;
+}
+
+.expense-filter__control select{
+
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    transition: 0.3s all ease;
+}
+
+.expense-filter__control select:hover{
+
+    color: cornflowerblue;
+    background-color: white;
+    border: 1px solid cornflowerblue;
+}
